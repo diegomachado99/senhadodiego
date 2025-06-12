@@ -1,0 +1,20 @@
+
+
+    :root{
+       
+    --branco: white;
+    --cor-de-fundo: #321794;
+    --fundo-senha: #e42f17;
+    --fundo-texto: #3372b9;
+    --borda: #550f3863;
+    --robota: 'roboto mono' monospace;
+     }
+     
+    body{ 
+        color:var(--branco);
+        background-color:var(--cor-de-fundo);
+        
+    }
+
+
+
