@@ -7,7 +7,7 @@
     --fundo-senha: #e42f17;
     --fundo-texto: #3372b9;
     --borda: #550f3863;
-    --robota: 'roboto mono' monospace;
+    --roboto: 'roboto mono' monospace;
      }
      
     body{ 
@@ -19,7 +19,7 @@
 
   .titulo-principal{
 
-    font-family:var(--robota-mono) ;
+    font-family:var(--roboto-mono) ;
     font-size: 32px;
     
 }
@@ -34,3 +34,19 @@
     margin-top: 80px;
 }
 
+.conteudo-senha{
+     margin-top: 80px;
+     background:var(--fundo-senha);
+     padding: 24px;
+     border-bottom: 6px solid var(--borda);
+     
+}
+
+#campo-cenha{
+     background-color:var(--fundo-senha);
+     border: nome;
+    color:var(--branco);
+    font-family:var(--roboto-mono);
+    font-size: 40px;
+    width: 70px;
+}
